@@ -1,0 +1,71 @@
+% This is a sample latex file
+
+\documentclass[12pt]{article}
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage[utf8]{inputenc}
+
+\title{Sample \LaTeX File}
+\author{Zean Qin \thanks{Nobody}}
+\date{December 2019}
+
+\begin{document}
+\maketitle
+
+\section{Math Mode}
+\subsection{Inline mode}
+Inline mode is used to write formulas that are part of a text. To display math in inline mode, use any of the following, 
+
+\begin{itemize}
+    \item $\setminus$( ... $\setminus$)
+    \item \$ ... \$
+    \item $\setminus$begin\{math\} ... $\setminus$end\{math\}
+    
+\end{itemize}
+
+\begin{verbatim}
+In physics, the mass-energy equivalence is stated by 
+the equation $E=mc^2$, discovered in 1905 by Albert Einstein.
+\end{verbatim}
+
+\subsection{Display  mode}
+Display mode is used to write expressions that are not part of a text or paragraph, and are therefore put on separate lines.
+
+The displayed mode has two versions: numbered and unnumbered.
+
+\begin{itemize}
+    \item $\setminus$[ ... $\setminus$]
+    \item $\setminus$begin\{displaymath\} ... $\setminus$end\{displaymath\}
+    \item $\setminus$begin\{equation\} ... $\setminus$end\{equation\}
+    \item \$\$ ... \$\$. This is discouraged as it can give inconsistent spacing, and may not work well with some math packages.
+    
+    
+\end{itemize}
+
+
+\section{Lists}
+\subsection{Unordered lists}
+
+Unordered lists are produced by the \textbf{itemize} environment. Each entry must be preceded by the control sequence $ \setminus $\textbf{itemize} as shown below.
+
+\begin{verbatim}
+\begin{itemize}
+  \item The individual entries are indicated with a black dot, 
+        a so-called bullet.
+  \item The text in the entries may be of any length.
+\end{itemize}
+\end{verbatim}
+
+By default the individual entries are indicated with a black dot, so-called bullet. The text in the entries may be of any length.
+
+\subsection{Ordered lists}
+
+Ordered list have the same syntax inside a different environment. We make ordered lists using the enumerate environment:
+
+\begin{verbatim}
+\begin{enumerate}
+  \item This is the first entry in our list
+  \item The list numbers increase with each entry we add
+\end{enumerate}
+\end{verbatim}
+
+\end{document}

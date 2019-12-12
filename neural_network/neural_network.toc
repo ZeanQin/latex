@@ -1,0 +1,2 @@
+\contentsline {section}{\numberline {1}Cost Function}{1}
+\contentsline {section}{\numberline {2}Gradient Checking}{1}
