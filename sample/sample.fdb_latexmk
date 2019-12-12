@@ -1,8 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1576131486 "/home/zean/latex/sample/sample.tex" "/home/zean/latex/sample/sample.pdf" "sample" 1576131493
+["pdflatex"] 1576187956 "/home/zean/latex/sample/sample.tex" "/home/zean/latex/sample/sample.pdf" "sample" 1576187957
   "/etc/texmf/web2c/texmf.cnf" 1574377723 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/zean/latex/sample/sample.aux" 1576131487 465 35f8c1b723cfc9da3dd2918ff2815cf5 ""
-  "/home/zean/latex/sample/sample.tex" 1576131492 2171 93366dfe6d320006a7b31a2915d9992e ""
+  "/home/zean/latex/sample/sample.aux" 1576187957 465 35f8c1b723cfc9da3dd2918ff2815cf5 ""
+  "/home/zean/latex/sample/sample.tex" 1576187955 2170 62273c15bb42bbbabfa7f205525e0368 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1480098698 1004 54797486969f23fa377b128694d548df ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1480098698 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -54,11 +54,11 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1520210507 32485 c64754543d8ac501bea6e75e209ea521 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1575243841 2700761 ac0584cc9514ab21918550a6948c4ee2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1575243911 4127336 5fd510b6ccee948865aa94feaab985de ""
-  "sample.aux" 1576131487 465 35f8c1b723cfc9da3dd2918ff2815cf5 ""
-  "sample.tex" 1576131492 2171 93366dfe6d320006a7b31a2915d9992e ""
+  "sample.aux" 1576187957 465 35f8c1b723cfc9da3dd2918ff2815cf5 ""
+  "sample.tex" 1576187955 2170 62273c15bb42bbbabfa7f205525e0368 ""
   (generated)
-  "sample.pdf"
   "/home/zean/latex/sample/sample.log"
-  "/home/zean/latex/sample/sample.pdf"
   "sample.log"
+  "sample.pdf"
+  "/home/zean/latex/sample/sample.pdf"
   "sample.aux"
