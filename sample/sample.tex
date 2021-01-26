@@ -1,15 +1,22 @@
-% This is a sample latex file
+%% Start of Preamble
 
 \documentclass[12pt]{article}
 \usepackage{amsmath, amssymb, amsthm}
-\usepackage[utf8]{inputenc}
+% This is the encoding for the document. 
+% It can be omitted or changed to another encoding but utf-8 is recommended. 
+% Unless you specifically need another encoding, or if you are unsure about it, add this line to the preamble.
+\usepackage[utf8]{inputenc} 
 
 \title{Sample \LaTeX File}
 \author{Zean Qin \thanks{Nobody}}
 \date{December 2019}
 
+%% End of Preamble
+
 \begin{document}
+
 \maketitle
+\tableofcontents
 
 \section{Math Mode}
 \subsection{Inline mode}
@@ -19,7 +26,6 @@ Inline mode is used to write formulas that are part of a text. To display math i
     \item $\setminus$( ... $\setminus$)
     \item \$ ... \$
     \item $\setminus$begin\{math\} ... $\setminus$end\{math\}
-    
 \end{itemize}
 
 \begin{verbatim}
@@ -40,7 +46,6 @@ The displayed mode has two versions: numbered and unnumbered.
     
     
 \end{itemize}
-
 
 \section{Lists}
 \subsection{Unordered lists}
@@ -67,5 +72,12 @@ Ordered list have the same syntax inside a different environment. We make ordere
   \item The list numbers increase with each entry we add
 \end{enumerate}
 \end{verbatim}
+
+becomes 
+
+\begin{enumerate}
+  \item This is the first entry in our list
+  \item The list numbers increase with each entry we add
+\end{enumerate}
 
 \end{document}
